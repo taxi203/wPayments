@@ -1,0 +1,31 @@
+ ip: 91.232.231.36
+ agent: QWClient 1.0 (Java)
+ query: q=ajax&PayCallback=qiwiPay
+
+headers: {
+    "User-Agent": "QWClient 1.0 (Java)",
+    "Accept": "text\/xml",
+    "Content-type": "application\/x-www-form-urlencoded",
+    "X-Api-Signature": "CuguTfWlRTu6DDacoTbwT1pmejU=",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Host": "rem-mastera.ru",
+    "Connection": "keep-alive",
+    "Content-Length": "188"
+}
+get: {
+    "q": "ajax",
+    "PayCallback": "qiwiPay"
+}
+post: {
+    "command": "bill",
+    "bill_id": "_TEST_qq123",
+    "status": "paid",
+    "error": "0",
+    "amount": "5457.00",
+    "user": "tel:+0",
+    "prv_name": "\u043f\u0440\u043e\u0432\u0430\u0439\u0434\u0435\u0440",
+    "ccy": "RUB",
+    "comment": "\u0442\u0435\u0441\u0442"
+}
+verification: 0

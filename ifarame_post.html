@@ -1,0 +1,12 @@
+
+<div style="overflow:hidden;"><iframe name="myiframe" style="border:none; width:100%; height:850px; margin-top:-180px; "></iframe></div>
+
+<form method="post" action="{$action}" target="{$target}" id="iframe_data_form">
+{foreach from=$params key=name item=value}
+  <input type="hidden" name="{$name}" value="{$value}" />
+  {/foreach}
+</form>
+
+<script type="text/javascript">
+  document.getElementById("iframe_data_form").submit();
+</script>
